@@ -1,0 +1,11 @@
+name: AburaTutorial
+version: ${project.version}
+main: com.github.aburaagetarou.aburatutorial.AburaTutorial
+api-version: 1.16
+authors: [ AburaAgeTarou ]
+description: チュートリアルを作成するためのプラグインです。
+
+commands:
+  tutorial:
+    description: /tutorial <reload/start/end/phase>
+    permission: aburatutorial
